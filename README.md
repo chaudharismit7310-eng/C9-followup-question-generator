@@ -63,3 +63,16 @@ pytest test_followup.py -v
 | "I trained a Random Forest model for classification." | "How did you tune the hyperparameters of your Random Forest model?" |
 
 ## 📁 Project Structure
+C9_followup_generator/
+
+├── main.py           # FastAPI endpoint
+
+├── generator.py      # Core follow-up generation logic
+
+├── test_followup.py  # Test cases
+
+├── requirements.txt  # Dependencies
+
+├── samples.md        # Sample input/output examples
+
+└── README.md         # This file
